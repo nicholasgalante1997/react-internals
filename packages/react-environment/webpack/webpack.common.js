@@ -36,7 +36,7 @@ const commonConfiguration = {
       '@': path.resolve(process.cwd(), 'src')
     },
     fallback: {
-        process: false
+      process: false
     }
   },
   plugins: [

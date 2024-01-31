@@ -1,20 +1,15 @@
 import React from 'react';
+import Zed from './components/Zed';
 
-function App() {
-    return (
-        <main>
-            <aside>
-                <ol>
-                    <li>
-                        <a target="_self" href="#"></a>
-                    </li>
-                </ol>
-            </aside>
-            <article>
+/** @type {import('react').FC} */
+const App = () => {
+  return (
+    <div id="react-internals__main-root">
+      <Zed />
+    </div>
+  );
+};
 
-            </article>
-        </main>
-    );
-}
+App.displayName = 'XApp';
 
 export { App };

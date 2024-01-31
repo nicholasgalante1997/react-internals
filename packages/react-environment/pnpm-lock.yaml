@@ -34,6 +34,9 @@ devDependencies:
   css-loader:
     specifier: ^6.9.1
     version: 6.9.1(webpack@5.90.0)
+  dotenv:
+    specifier: ^16.4.1
+    version: 16.4.1
   html-webpack-plugin:
     specifier: ^5.6.0
     version: 5.6.0(webpack@5.90.0)
@@ -2240,6 +2243,11 @@ packages:
     dependencies:
       no-case: 3.0.4
       tslib: 2.6.2
+    dev: true
+
+  /dotenv@16.4.1:
+    resolution: {integrity: sha512-CjA3y+Dr3FyFDOAMnxZEGtnW9KBR2M0JvvUtXNW+dYJL5ROWxP9DUHCwgFqpMk0OXCc0ljhaNTr2w/kutYIcHQ==}
+    engines: {node: '>=12'}
     dev: true
 
   /ee-first@1.1.1:
